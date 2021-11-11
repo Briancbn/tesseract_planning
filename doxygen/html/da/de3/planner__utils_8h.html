@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Tesseract Planning: tesseract_motion_planners/include/tesseract_motion_planners/planner_utils.h File Reference</title>
+<title>Tesseract Planning: tesseract_motion_planners/core/include/tesseract_motion_planners/planner_utils.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_ae3a79ad3cbc8e5dda6288dc4d617504.html">tesseract_motion_planners</a></li><li class="navelem"><a class="el" href="../../dir_c5c799470b62d344576211f00323f466.html">include</a></li><li class="navelem"><a class="el" href="../../dir_ee17c59d9b25dc64c568af3b1d0f4112.html">tesseract_motion_planners</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_ae3a79ad3cbc8e5dda6288dc4d617504.html">tesseract_motion_planners</a></li><li class="navelem"><a class="el" href="../../dir_ba42fb948e9041f2f8c5ac347b7f6bb7.html">core</a></li><li class="navelem"><a class="el" href="../../dir_d1e60de41e683bed0b92ca30d9c9d9c7.html">include</a></li><li class="navelem"><a class="el" href="../../dir_539c437dd29b6b4026281223e41c64b7.html">tesseract_motion_planners</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -82,87 +82,83 @@ $(function() {
 <code>#include &lt;<a class="el" href="../../d2/d6f/constants_8h_source.html">tesseract_command_language/constants.h</a>&gt;</code><br />
 <code>#include &lt;tesseract_kinematics/core/forward_kinematics.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d80/robot__config_8h_source.html">tesseract_motion_planners/robot_config.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/d9f/tesseract__motion__planners_2include_2tesseract__motion__planners_2core_2types_8h_source.html">tesseract_motion_planners/core/types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d6d/tesseract__motion__planners_2core_2include_2tesseract__motion__planners_2core_2types_8h_source.html">tesseract_motion_planners/core/types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dd/dd6/profile__dictionary_8h_source.html">tesseract_command_language/profile_dictionary.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for planner_utils.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/de7/planner__utils_8h__incl.png" border="0" usemap="#atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8h" alt=""/></div>
-<map name="atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8h" id="atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8h">
-<area shape="rect" title=" " alt="" coords="892,5,1071,61"/>
-<area shape="rect" title=" " alt="" coords="2081,735,2271,761"/>
-<area shape="rect" title=" " alt="" coords="784,474,899,501"/>
-<area shape="rect" title=" " alt="" coords="3329,117,3497,143"/>
-<area shape="rect" href="../../d2/d6f/constants_8h.html" title="Containst Tesseract Command Language constants." alt="" coords="3329,467,3527,508"/>
-<area shape="rect" title=" " alt="" coords="5,199,184,240"/>
-<area shape="rect" href="../../d2/d80/robot__config_8h.html" title=" " alt="" coords="263,109,441,151"/>
-<area shape="rect" href="../../d3/d9f/tesseract__motion__planners_2include_2tesseract__motion__planners_2core_2types_8h.html" title=" " alt="" coords="2489,109,2668,151"/>
-<area shape="rect" href="../../dd/dd6/profile__dictionary_8h.html" title="This is a profile dictionary for storing all profiles." alt="" coords="2126,467,2325,508"/>
-<area shape="rect" title=" " alt="" coords="3511,653,3566,679"/>
-<area shape="rect" title=" " alt="" coords="2900,199,3055,240"/>
-<area shape="rect" title=" " alt="" coords="2703,199,2876,240"/>
-<area shape="rect" title=" " alt="" coords="581,474,760,501"/>
-<area shape="rect" href="../../d5/d59/command__language_8h.html" title=" " alt="" coords="2479,199,2678,240"/>
-<area shape="rect" href="../../d4/d1d/tesseract__command__language_2include_2tesseract__command__language_2types_8h.html" title="Contains common types used throughout command language." alt="" coords="1854,467,2053,508"/>
-<area shape="rect" href="../../dc/d2f/null__instruction_8h.html" title=" " alt="" coords="2905,377,3103,419"/>
-<area shape="rect" href="../../d5/dc2/null__waypoint_8h.html" title=" " alt="" coords="2683,467,2882,508"/>
-<area shape="rect" href="../../d3/d18/cartesian__waypoint_8h.html" title=" " alt="" coords="939,377,1138,419"/>
-<area shape="rect" href="../../de/d3d/waypoint__type_8h.html" title=" " alt="" coords="309,467,507,508"/>
-<area shape="rect" href="../../d5/df7/composite__instruction_8h.html" title=" " alt="" coords="2769,288,2967,329"/>
-<area shape="rect" href="../../d0/dd5/instruction__type_8h.html" title=" " alt="" coords="2310,377,2509,419"/>
-<area shape="rect" href="../../d7/d1f/joint__waypoint_8h.html" title=" " alt="" coords="1162,377,1361,419"/>
-<area shape="rect" href="../../da/d74/move__instruction_8h.html" title=" " alt="" coords="2087,377,2286,419"/>
-<area shape="rect" href="../../d0/d65/plan__instruction_8h.html" title=" " alt="" coords="2582,377,2781,419"/>
-<area shape="rect" href="../../d1/d10/state__waypoint_8h.html" title=" " alt="" coords="1385,377,1583,419"/>
-<area shape="rect" href="../../d2/d61/timer__instruction_8h.html" title=" " alt="" coords="3774,377,3973,419"/>
-<area shape="rect" href="../../d0/d25/wait__instruction_8h.html" title=" " alt="" coords="3997,377,4195,419"/>
-<area shape="rect" href="../../d5/d2b/set__tool__instruction_8h.html" title="Set tool ID." alt="" coords="3551,377,3750,419"/>
-<area shape="rect" href="../../d7/d85/set__analog__instruction_8h.html" title="Set Analog Instruction." alt="" coords="3329,377,3527,419"/>
-<area shape="rect" title=" " alt="" coords="1457,556,1661,597"/>
-<area shape="rect" title=" " alt="" coords="2450,645,2577,687"/>
-<area shape="rect" href="../../d8/df4/instruction_8h.html" title=" " alt="" coords="2955,467,3154,508"/>
-<area shape="rect" title=" " alt="" coords="1875,653,1951,679"/>
-<area shape="rect" title=" " alt="" coords="3113,645,3239,687"/>
-<area shape="rect" title=" " alt="" coords="2299,645,2426,687"/>
-<area shape="rect" title=" " alt="" coords="2601,645,2727,687"/>
-<area shape="rect" title=" " alt="" coords="2752,645,2893,687"/>
-<area shape="rect" href="../../d4/d08/waypoint_8h.html" title=" " alt="" coords="2414,556,2613,597"/>
-<area shape="rect" href="../../dd/d50/serialization_8h.html" title="Provides boost exports for waypoint and instruction implementation for serialization Also includes ut..." alt="" coords="2077,645,2275,687"/>
-<area shape="rect" title=" " alt="" coords="2917,645,3088,687"/>
-<area shape="rect" title=" " alt="" coords="1475,653,1543,679"/>
-<area shape="rect" title=" " alt="" coords="1219,474,1304,501"/>
-<area shape="rect" title=" " alt="" coords="973,474,1144,501"/>
-<area shape="rect" title=" " alt="" coords="2551,474,2609,501"/>
-<area shape="rect" title=" " alt="" coords="1787,563,1829,590"/>
-<area shape="rect" title=" " alt="" coords="1853,563,1925,590"/>
-<area shape="rect" title=" " alt="" coords="1950,563,2061,590"/>
-<area shape="rect" title=" " alt="" coords="2085,563,2187,590"/>
-<area shape="rect" title=" " alt="" coords="1669,467,1830,508"/>
-<area shape="rect" title=" " alt="" coords="1430,474,1645,501"/>
+<div class="center"><img src="../../d0/de7/planner__utils_8h__incl.png" border="0" usemap="#atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8h" alt=""/></div>
+<map name="atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8h" id="atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8h">
+<area shape="rect" title=" " alt="" coords="1601,5,1780,76"/>
+<area shape="rect" title=" " alt="" coords="1974,749,2165,776"/>
+<area shape="rect" title=" " alt="" coords="1663,489,1777,515"/>
+<area shape="rect" title=" " alt="" coords="1423,131,1591,158"/>
+<area shape="rect" href="../../d2/d6f/constants_8h.html" title="Containst Tesseract Command Language constants." alt="" coords="2346,481,2545,523"/>
+<area shape="rect" title=" " alt="" coords="1665,124,1844,165"/>
+<area shape="rect" href="../../d2/d80/robot__config_8h.html" title=" " alt="" coords="5,392,184,433"/>
+<area shape="rect" href="../../d1/d6d/tesseract__motion__planners_2core_2include_2tesseract__motion__planners_2core_2types_8h.html" title=" " alt="" coords="2376,124,2555,165"/>
+<area shape="rect" href="../../dd/dd6/profile__dictionary_8h.html" title="This is a profile dictionary for storing all profiles." alt="" coords="1289,481,1487,523"/>
+<area shape="rect" title=" " alt="" coords="651,667,706,694"/>
+<area shape="rect" title=" " alt="" coords="21,481,168,523"/>
+<area shape="rect" title=" " alt="" coords="2576,213,2731,255"/>
+<area shape="rect" title=" " alt="" coords="2379,213,2552,255"/>
+<area shape="rect" title=" " alt="" coords="4057,489,4236,515"/>
+<area shape="rect" href="../../d5/d59/command__language_8h.html" title=" " alt="" coords="2155,213,2354,255"/>
+<area shape="rect" href="../../d4/d1d/tesseract__command__language_2include_2tesseract__command__language_2types_8h.html" title="Contains common types used throughout command language." alt="" coords="2123,481,2322,523"/>
+<area shape="rect" href="../../dc/d2f/null__instruction_8h.html" title=" " alt="" coords="1342,392,1541,433"/>
+<area shape="rect" href="../../d5/dc2/null__waypoint_8h.html" title=" " alt="" coords="1851,481,2050,523"/>
+<area shape="rect" href="../../d3/d18/cartesian__waypoint_8h.html" title=" " alt="" coords="2837,392,3035,433"/>
+<area shape="rect" href="../../de/d3d/waypoint__type_8h.html" title=" " alt="" coords="2701,481,2899,523"/>
+<area shape="rect" href="../../d5/df7/composite__instruction_8h.html" title=" " alt="" coords="2125,303,2323,344"/>
+<area shape="rect" href="../../d0/dd5/instruction__type_8h.html" title=" " alt="" coords="2362,392,2561,433"/>
+<area shape="rect" href="../../d7/d1f/joint__waypoint_8h.html" title=" " alt="" coords="3435,392,3634,433"/>
+<area shape="rect" href="../../da/d74/move__instruction_8h.html" title=" " alt="" coords="1938,392,2137,433"/>
+<area shape="rect" href="../../d0/d65/plan__instruction_8h.html" title=" " alt="" coords="1715,392,1914,433"/>
+<area shape="rect" href="../../d1/d10/state__waypoint_8h.html" title=" " alt="" coords="3213,392,3411,433"/>
+<area shape="rect" href="../../d2/d61/timer__instruction_8h.html" title=" " alt="" coords="431,392,630,433"/>
+<area shape="rect" href="../../d0/d25/wait__instruction_8h.html" title=" " alt="" coords="209,392,407,433"/>
+<area shape="rect" href="../../d5/d2b/set__tool__instruction_8h.html" title="Set tool ID." alt="" coords="654,392,853,433"/>
+<area shape="rect" href="../../d7/d85/set__analog__instruction_8h.html" title="Set Analog Instruction." alt="" coords="877,392,1075,433"/>
+<area shape="rect" title=" " alt="" coords="2411,571,2615,612"/>
+<area shape="rect" title=" " alt="" coords="2107,660,2234,701"/>
+<area shape="rect" href="../../d8/df4/instruction_8h.html" title=" " alt="" coords="942,481,1141,523"/>
+<area shape="rect" title=" " alt="" coords="1234,667,1310,694"/>
+<area shape="rect" title=" " alt="" coords="1438,660,1565,701"/>
+<area shape="rect" title=" " alt="" coords="1589,660,1715,701"/>
+<area shape="rect" title=" " alt="" coords="1739,660,1866,701"/>
+<area shape="rect" title=" " alt="" coords="1891,660,2032,701"/>
+<area shape="rect" href="../../d4/d08/waypoint_8h.html" title=" " alt="" coords="1834,571,2033,612"/>
+<area shape="rect" href="../../dd/d50/serialization_8h.html" title="Provides boost exports for waypoint and instruction implementation for serialization Also includes ut..." alt="" coords="1011,660,1210,701"/>
+<area shape="rect" title=" " alt="" coords="2598,667,2666,694"/>
+<area shape="rect" title=" " alt="" coords="3269,489,3355,515"/>
+<area shape="rect" title=" " alt="" coords="3024,489,3195,515"/>
+<area shape="rect" title=" " alt="" coords="2568,489,2627,515"/>
+<area shape="rect" title=" " alt="" coords="1384,578,1427,605"/>
+<area shape="rect" title=" " alt="" coords="1451,578,1523,605"/>
+<area shape="rect" title=" " alt="" coords="1547,578,1658,605"/>
+<area shape="rect" title=" " alt="" coords="1257,578,1359,605"/>
+<area shape="rect" title=" " alt="" coords="3618,481,3779,523"/>
+<area shape="rect" title=" " alt="" coords="3379,489,3594,515"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/de0/planner__utils_8h__dep__incl.png" border="0" usemap="#atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8hdep" alt=""/></div>
-<map name="atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8hdep" id="atesseract__motion__planners_2include_2tesseract__motion__planners_2planner__utils_8hdep">
-<area shape="rect" title=" " alt="" coords="1520,5,1699,61"/>
-<area shape="rect" href="../../d5/d02/descartes_2problem__generators_2default__problem__generator_8h.html" title="Generates a Descartes Problem." alt="" coords="440,109,629,195"/>
-<area shape="rect" href="../../d6/d67/ompl_2problem__generators_2default__problem__generator_8cpp.html" title="Generates a OMPL problem from a planner request." alt="" coords="653,124,856,180"/>
-<area shape="rect" href="../../dc/d28/simple__motion__planner_8cpp.html" title="The simple planner is meant to be a tool for assigning values to the seed. The planner simply loops o..." alt="" coords="880,124,1059,180"/>
-<area shape="rect" href="../../d3/d26/trajopt_2problem__generators_2default__problem__generator_8cpp.html" title="Generates a trajopt problem from a planner request." alt="" coords="1083,124,1285,180"/>
-<area shape="rect" href="../../d5/d04/trajopt__ifopt_2problem__generators_2default__problem__generator_8cpp.html" title="Generates a trajopt problem from a planner request." alt="" coords="1309,117,1496,187"/>
-<area shape="rect" href="../../d7/ddd/tesseract__motion__planners_2test_2utils__test_8cpp.html" title=" " alt="" coords="1520,131,1699,173"/>
-<area shape="rect" href="../../d4/d46/fix__state__bounds__task__generator_8cpp.html" title="Process generator that changes the plan instructions to make push them back within joint limits." alt="" coords="1723,124,1947,180"/>
-<area shape="rect" href="../../d2/d3f/fix__state__collision__task__generator_8cpp.html" title=" " alt="" coords="1971,124,2200,180"/>
-<area shape="rect" href="../../df/d01/iterative__spline__parameterization__task__generator_8cpp.html" title="Perform iterative spline time parameterization." alt="" coords="2224,117,2421,187"/>
-<area shape="rect" href="../../db/d1d/profile__switch__task__generator_8cpp.html" title=" " alt="" coords="2446,124,2639,180"/>
-<area shape="rect" href="../../d4/d25/time__optimal__trajectory__generation__task__generator_8cpp.html" title=" " alt="" coords="2663,117,2862,187"/>
-<area shape="rect" href="../../d2/de8/chain__example_8cpp.html" title="Chained motion planning example." alt="" coords="5,250,200,291"/>
-<area shape="rect" href="../../d4/dfe/raster__example_8cpp.html" title="Raster motion planning example." alt="" coords="224,250,421,291"/>
-<area shape="rect" href="../../d6/dcb/descartes__planner__tests_8cpp.html" title="This contains unit test for the tesseract descartes planner." alt="" coords="445,243,624,299"/>
-<area shape="rect" href="../../d5/de3/cartesian__taskflow_8cpp.html" title="Cartesian Graph Taskflow." alt="" coords="649,243,842,299"/>
-<area shape="rect" href="../../dd/d54/descartes__taskflow_8cpp.html" title="Descartes Taskflow." alt="" coords="866,243,1059,299"/>
+<div class="center"><img src="../../da/de0/planner__utils_8h__dep__incl.png" border="0" usemap="#atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8hdep" alt=""/></div>
+<map name="atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8hdep" id="atesseract__motion__planners_2core_2include_2tesseract__motion__planners_2planner__utils_8hdep">
+<area shape="rect" title=" " alt="" coords="1120,5,1299,76"/>
+<area shape="rect" href="../../dc/d28/simple__motion__planner_8cpp.html" title="The simple planner is meant to be a tool for assigning values to the seed. The planner simply loops o..." alt="" coords="5,131,184,187"/>
+<area shape="rect" href="../../dd/dad/descartes__motion__planner_8hpp.html" title="Tesseract ROS Descartes planner." alt="" coords="209,124,439,195"/>
+<area shape="rect" href="../../d8/d63/ompl__motion__planner_8cpp.html" title="Tesseract OMPL motion planner." alt="" coords="464,139,691,180"/>
+<area shape="rect" href="../../d7/ddd/tesseract__motion__planners_2test_2utils__test_8cpp.html" title=" " alt="" coords="715,139,893,180"/>
+<area shape="rect" href="../../dc/df5/trajopt__motion__planner_8cpp.html" title=" " alt="" coords="917,131,1096,187"/>
+<area shape="rect" href="../../d8/d69/trajopt__ifopt__motion__planner_8cpp.html" title=" " alt="" coords="1120,131,1299,187"/>
+<area shape="rect" href="../../d4/d46/fix__state__bounds__task__generator_8cpp.html" title="Process generator that changes the plan instructions to make push them back within joint limits." alt="" coords="1323,131,1547,187"/>
+<area shape="rect" href="../../d2/d3f/fix__state__collision__task__generator_8cpp.html" title=" " alt="" coords="1571,131,1800,187"/>
+<area shape="rect" href="../../df/d01/iterative__spline__parameterization__task__generator_8cpp.html" title="Perform iterative spline time parameterization." alt="" coords="1824,124,2021,195"/>
+<area shape="rect" href="../../db/d1d/profile__switch__task__generator_8cpp.html" title=" " alt="" coords="2046,131,2239,187"/>
+<area shape="rect" href="../../d4/d25/time__optimal__trajectory__generation__task__generator_8cpp.html" title=" " alt="" coords="2263,124,2462,195"/>
+<area shape="rect" href="../../d5/dd0/descartes__motion__planner_8cpp.html" title="Tesseract ROS Descartes planner." alt="" coords="235,243,413,299"/>
 </map>
 </div>
 </div>
@@ -190,10 +186,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a2c3697d8b33f7e6ffa453a80d765c2dd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcd/namespacetesseract__planning.html#a2c3697d8b33f7e6ffa453a80d765c2dd">tesseract_planning::getProfileString</a> (const std::string &amp;profile, const std::string &amp;planner_name, const PlannerProfileRemapping &amp;profile_remapping, std::string default_profile=DEFAULT_PROFILE_KEY)</td></tr>
 <tr class="memdesc:a2c3697d8b33f7e6ffa453a80d765c2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the profile string taking into account defaults and profile remapping.  <a href="../../d9/dcd/namespacetesseract__planning.html#a2c3697d8b33f7e6ffa453a80d765c2dd">More...</a><br /></td></tr>
 <tr class="separator:a2c3697d8b33f7e6ffa453a80d765c2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb2bd5dfb8af67f79b50c373ad0a2656"><td class="memTemplParams" colspan="2">template&lt;typename ProfileType &gt; </td></tr>
-<tr class="memitem:aeb2bd5dfb8af67f79b50c373ad0a2656"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; const ProfileType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcd/namespacetesseract__planning.html#aeb2bd5dfb8af67f79b50c373ad0a2656">tesseract_planning::getProfile</a> (const std::string &amp;profile, const std::unordered_map&lt; std::string, std::shared_ptr&lt; const ProfileType &gt;&gt; &amp;profile_map, std::shared_ptr&lt; const ProfileType &gt; default_profile=nullptr)</td></tr>
-<tr class="memdesc:aeb2bd5dfb8af67f79b50c373ad0a2656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the profile specified from the profile map.  <a href="../../d9/dcd/namespacetesseract__planning.html#aeb2bd5dfb8af67f79b50c373ad0a2656">More...</a><br /></td></tr>
-<tr class="separator:aeb2bd5dfb8af67f79b50c373ad0a2656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128c3b05825f2c7e1901031985e61aef"><td class="memTemplParams" colspan="2">template&lt;typename ProfileType &gt; </td></tr>
+<tr class="memitem:a128c3b05825f2c7e1901031985e61aef"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; const ProfileType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcd/namespacetesseract__planning.html#a128c3b05825f2c7e1901031985e61aef">tesseract_planning::getProfile</a> (const std::string &amp;profile, const ProfileDictionary &amp;profile_dictionary, std::shared_ptr&lt; const ProfileType &gt; default_profile=nullptr)</td></tr>
+<tr class="memdesc:a128c3b05825f2c7e1901031985e61aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the profile specified from the profile map.  <a href="../../d9/dcd/namespacetesseract__planning.html#a128c3b05825f2c7e1901031985e61aef">More...</a><br /></td></tr>
+<tr class="separator:a128c3b05825f2c7e1901031985e61aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a4842f5288c1b198e848bae9d1e2ce6"><td class="memTemplParams" colspan="2">template&lt;typename ProfileType &gt; </td></tr>
 <tr class="memitem:a3a4842f5288c1b198e848bae9d1e2ce6"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; const ProfileType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcd/namespacetesseract__planning.html#a3a4842f5288c1b198e848bae9d1e2ce6">tesseract_planning::applyProfileOverrides</a> (const std::string task_name, const std::shared_ptr&lt; ProfileType &gt; &amp;nominal_profile, const ProfileDictionary::ConstPtr &amp;overrides=nullptr)</td></tr>
 <tr class="memdesc:a3a4842f5288c1b198e848bae9d1e2ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns either nominal_profile or override based on task name passed in.  <a href="../../d9/dcd/namespacetesseract__planning.html#a3a4842f5288c1b198e848bae9d1e2ce6">More...</a><br /></td></tr>
@@ -203,7 +199,7 @@ Functions</h2></td></tr>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Levi Armstrong </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>June 18, 2020 </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>TODO </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000084">Bug:</a></b></dt><dd>No known bugs</dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000049">Bug:</a></b></dt><dd>No known bugs</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2020, Southwest Research Institute</dd></dl>
 <dl class="section user"><dt>License</dt><dd>Software License Agreement (Apache License) </dd></dl>
 <dl class="section user"><dt></dt><dd>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a> </dd></dl>
@@ -211,7 +207,7 @@ Functions</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 23 2021 00:55:54 for Tesseract Planning by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Nov 11 2021 01:12:23 for Tesseract Planning by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
